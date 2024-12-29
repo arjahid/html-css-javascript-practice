@@ -1,0 +1,14 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+.box{
+    position: relative;
+}
+.box-butterfly{
+    z-index: 2;
+}
+.box-kumir{
+    top: -30px;
+    left: 150px;
+}
