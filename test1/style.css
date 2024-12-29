@@ -1,0 +1,32 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+.box{
+    border:2px dotted red;
+    width: 300px;
+}
+.box-kumir{
+    position: relative;
+    left: 340px;
+    top: -40px;
+}
+/* .box-kumir{
+   position: absolute;
+   top: 40px;
+   left: 100px;
+} */
+ .dummy{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+ }
+ /* .box-lion{
+    position: sticky;
+    top: 0px;
+ } */
+ .box-lion{
+    position: fixed;
+    top: 200px;
+    left: 50px;
+ }
