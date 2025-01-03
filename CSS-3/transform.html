@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 200px;
+        }
+        .container, .inner{
+            height: 200px;
+            width: 200px;
+        }
+        .container{
+            border: 1px solid greenyellow;
+            background-color: lightblue;
+        }
+        .inner{
+            border: 1px solid red;
+            background-color: lightcoral;
+            transform: scale(0.5) rotate(45deg);
+
+        }
+        .inner:hover{
+            transform: scale(1.5) rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <h2>Transform </h2>
+    <div class="container">container 1
+        <div class="inner"> inner 1</div>
+    </div>
+    <div class="container">container 2
+        <div class="inner"> inner 2</div>
+    </div>
+    <div class="container">container 3
+        <div class="inner"> inner 3</div>
+    </div>
+</body>
+</html>
