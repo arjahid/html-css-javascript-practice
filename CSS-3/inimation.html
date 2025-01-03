@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @keyframes ping {
+            from {
+                left: 0;
+            }
+            to {
+                left: 500px;
+                background-color: yellow;
+            }
+        } */
+         @keyframes bounce {
+            0% {
+                left: 0;
+                top: 0;
+            }
+            25% {
+                top: 100px;
+                left: 120px;
+                background-color: red;
+            }
+            50% {
+                top: 0px;
+                left: 180px;
+                background-color: rgb(17, 39, 116);
+            }
+            100% {
+                top: 200px;
+                left:500px ;
+            }
+            
+         }
+        .stage {
+            width: 550px;
+            height: 250px;
+            border: 2px solid green;
+            background-color: aqua;
+        }
+        .ball {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: red;
+            position: relative;
+            animation: bounce 2s ease-in-out 1s infinite alternate;
+            /* animation: ping 2s ease-in-out 1s infinite alternate; */
+        }
+    </style>
+</head>
+<body>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
